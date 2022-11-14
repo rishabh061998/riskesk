@@ -18,7 +18,7 @@ function App() {
   },[])
 
   const loadUserData=async(start,end,increase)=>{
-    return await axios.get(`http://localhost:5000/users?_start=${start}&_end=${end}`).then((response)=>{
+    return await axios.get(`https://riskesk-url.herokuapp.com/users?_start=${start}&_end=${end}`).then((response)=>{
       setData(response.data)
       setCurrentPage(currentPage+increase)
     }).catch((err)=>console.log(err))
@@ -33,7 +33,7 @@ loadUserData(0,4,0)
   
   const handleSearch=async(e)=>{
     e.preventDefault();
-    return await axios.get(`http://localhost:5000/users?q=${value}`).then((response)=>{
+    return await axios.get(`https://riskesk-url.herokuapp.com/users?q=${value}`).then((response)=>{
       setData(response.data);
       setValue("")
     }).catch((err)=>console.log(err))
@@ -43,7 +43,7 @@ loadUserData(0,4,0)
   const handleSort=async(e)=>{
    let value=e.target.value;
    setSortValue(value)
-    return await axios.get(`http://localhost:5000/users?_sort=${value}&_order=asc`).then((response)=>{
+    return await axios.get(`https://riskesk-url.herokuapp.com/users?_sort=${value}&_order=asc`).then((response)=>{
       setData(response.data);
       
     }).catch((err)=>console.log(err))
@@ -51,7 +51,7 @@ loadUserData(0,4,0)
 
   const handleFilter=async(value)=>{
    
-     return await axios.get(`http://localhost:5000/users?status=${value}`).then((response)=>{
+     return await axios.get(`https://riskesk-url.herokuapp.com/users?status=${value}`).then((response)=>{
        setData(response.data);
        
      }).catch((err)=>console.log(err))
@@ -193,3 +193,7 @@ loadUserData(0,4,0)
 }
 
 export default App;
+
+
+
+//http://localhost:5000/users
