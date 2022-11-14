@@ -1,0 +1,115 @@
+{
+    "users":[
+        {
+            "id":1,
+            "name":"Rishabh",
+            "email":"rishi.march@gmail.com",
+            "phone":"6731043160",
+            "address":"Koderma",
+            
+            "status":"Active"
+        },
+        
+
+        {
+            "id":2,
+            "name":"Amisha",
+            "email":"Lilliput@gmail.com",
+            "phone":"2731043160",
+            "address":"Koderma",
+            
+            "status":"Active"
+        },
+        
+
+        {
+            "id":3,
+            "name":"John",
+            "email":"john@gmail.com",
+            "phone":"3731043160",
+            "address":"Kolkata",
+            
+            "status":"Active"
+        },
+        
+
+        {
+            "id":4,
+            "name":"Ron",
+            "email":"Ron@gmail.com",
+            "phone":"2731043160",
+            "address":"Delhi",
+            
+            "status":"Active"
+        },
+        
+
+        {
+            "id":5,
+            "name":"Rahul",
+            "email":"rahul@gmail.com",
+            "phone":"8731043160",
+            "address":"Ranchi",
+            
+            "status":"Inactive"
+        },
+        
+
+        {
+            "id":6,
+            "name":"Ramesh",
+            "email":"Ramesh@gmail.com",
+            "phone":"6531043160",
+            "address":"Punjab",
+            
+            "status":"Active"
+        },
+        
+
+        {
+            "id":7,
+            "name":"James",
+            "email":"James@gmail.com",
+            "phone":"9031043160",
+            "address":"Mumbai",
+            
+            "status":"Inactive"
+        },
+        
+
+        {
+            "id":8,
+            "name":"Akshith",
+            "email":"Akshith@gmail.com",
+            "phone":"8731043160",
+            "address":"Manipal",
+            
+            "status":"Active"
+        },
+        
+
+        {
+            "id":9,
+            "name":"Rohan",
+            "email":"Rohan@gmail.com",
+            "phone":"3241043160",
+            "address":"Udupi",
+            
+            "status":"Inactive"
+        },
+        
+
+        {
+            "id":10,
+            "name":"Vedant",
+            "email":"Vedant@gmail.com",
+            "phone":"7961043160",
+            "address":"Bokaro",
+            
+            "status":"Active"
+        }
+        
+
+       
+    ]
+}
